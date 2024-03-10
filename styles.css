@@ -53,6 +53,7 @@ h1 {
 }
 
 ol{
+    position: relative;
     margin: 10px;
 }
 
