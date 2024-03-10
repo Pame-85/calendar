@@ -8,14 +8,14 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-color: #131a24;
+    background-color:#eb9c4d;
     /* position: relative; */
 }
 
 .card {
     width: 30rem;
     height: 35rem;
-    background-color: #323650;
+    background-color:#f2d680;
     position: absolute;
     top: 15%;
     left: 50%;
@@ -28,7 +28,7 @@
 
 .card::-webkit-scrollbar {
     width: 8px;
-    background-color: rgb(50, 54, 80,0.2) ;
+    background-color:#f2d680;
     border-radius: 8px
 }
 
@@ -37,7 +37,7 @@
 }
 
 .card::-webkit-scrollbar-thumb {
-    background-color: #222436;
+    background-color:#697060;
     border-radius: 8px;
 }
 
@@ -48,7 +48,7 @@ h1 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: 500;
-    color: #d1d1d1;
+    color:#697060;
     letter-spacing: 0.1rem;
 }
 
@@ -58,7 +58,6 @@ ol{
 
 li {
     position: relative;
-    display: flex;
     padding: 15px;
     background: rgba(0, 0, 0, 0.1);
     border-radius: 7px;
