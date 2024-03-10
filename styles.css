@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #131a24;
+    /* position: relative; */
+}
+
+.card {
+    width: 30rem;
+    height: 35rem;
+    background-color: #323650;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 0.3rem;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.5);
+    transition: height 0.5s;
+    overflow-y: scroll
+}
+
+.card::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgb(50, 54, 80,0.2) ;
+    border-radius: 8px
+}
+
+.card::-webkit-scrollbar:window-inactive {
+    display: none;
+}
+
+.card::-webkit-scrollbar-thumb {
+    background-color: #222436;
+    border-radius: 8px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #d1d1d1;
+    letter-spacing: 0.1rem;
+}
+
+ol{
+    margin: 10px;
+}
+
+li {
+
+    position: relative;
+    display: flex;
+   
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+ul {
+    position: relative;
+    margin: 20px;
+    min-width: 20px;
+    min-height: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
+    border-radius: 10px;
+    z-index: 10;
+    padding: 20px;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
+}
